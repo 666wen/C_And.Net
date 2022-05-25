@@ -25,9 +25,11 @@ ANS: 1.value type will directly hold the value, while reference type hold the me
      Unboxing: convert a reference type to a value type.
 
 3. What is meant by the terms managed resource and unmanaged resource in .NET
+ANS: managed resource: managed by garbage collector.
+     unmanaged resource: files, steams, database connections.
 
 4. Whats the purpose of Garbage Collector in .NET?
-
+ANS: The garbage collector manages the allocation and release of memory for an application.
 */
 
 Console.WriteLine("sbyte: size= {0}, minValue={1}, maxValue={2}",sizeof(sbyte), sbyte.MinValue, sbyte.MaxValue);
